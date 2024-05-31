@@ -8,7 +8,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
 # Load and preprocess data
-file_path = 'C:\\Users\\PJ-COMPUTERS\\Downloads\\Students_data_May2024 (1).csv'
+file_path = 'Students_data_May2024 (1).csv'
 df = pd.read_csv(file_path)
 
 # Handle missing values (if any)
